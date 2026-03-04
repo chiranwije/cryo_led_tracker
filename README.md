@@ -1,6 +1,7 @@
 # Cryo LED Tracker
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org/)
+[![Baumer NeoAPI](https://img.shields.io/badge/Baumer-NeoAPI-orange.svg)](https://www.baumer.com/int/en/product-overview/industrial-cameras-image-processing/software/baumer-neoapi/c/42528)
 
 Real-time LED position tracking system for quantum dot characterization in cryogenic environments using computer vision and high-speed image processing.
 
@@ -81,11 +82,18 @@ This system was instrumental in enabling time-sensitive quantum dot photolumines
 
 - Python 3.8+
 - OpenCV 4.x
+- Neoapi
 - NumPy
 - High-speed USB 3.0 camera with appropriate SDK (Baumer Camera + neoapi)
 - LVTTL signal generation hardware
 - Time tagger (correlation board)
+- SPADs 
 
 ---
 
 *Designed for quantum optics research in cryogenic environments. Optimized for production-grade data acquisition and real-time processing.*
+---
+
+## 🤝 Acknowledgments
+
+Special thanks to **Yasmin Sarhan** for her contributions and collaborative efforts during the development and testing of this tracking system.
