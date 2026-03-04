@@ -43,11 +43,11 @@ The workflow is:
 
 ## Project Structure
 
-- **Image Acquisition Module** (`w/o_tracking`): Low-level camera interface and image streaming without position analysis
-- **Position Tracking Module**: OpenCV-based real-time LED centroid detection and position calculation
+- **Image Acquisition Module** (`get_image`): Low-level camera interface and image streaming without position analysis
+- **Position Tracking Module**: (`on_off_improved`)OpenCV-based real-time LED centroid detection and position calculation
 - **Data Management**: Synchronized storage of position and timing metadata in optimized numpy arrays
-- **Sanity Check Tools**: Camera frame rate validation and data quality monitoring utilities
-- **Legacy Components**: Earlier implementation for multi-file correlation board systems with asynchronous position marking
+- **Sanity Check Tools**:(`pos_read`) Camera frame rate validation and data quality monitoring utilities
+- **Legacy Components**:`old_implementaion` branch Earlier implementation for multi-file correlation board systems with asynchronous position marking
 
 ## Technical Highlights
 
