@@ -35,7 +35,7 @@ The workflow is:
 ## Key Features
 
 - **Real-time position tracking** using OpenCV centroid detection algorithms
-- **High-throughput data handling** optimized for ~1 kHz acquisition rates
+- **High-throughput data handling** optimized for ~1(best frewueency found with acceptable frame drops) kHz acquisition rates
 - **USB 3.0 integration** for bandwidth-intensive camera streaming
 - **Memory-efficient numpy arrays** for large-scale data storage and retrieval
 - **Hardware synchronization** with external photon correlation boards via LVTTL signals
