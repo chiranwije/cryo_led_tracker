@@ -40,7 +40,7 @@ The workflow is:
 - **Memory-efficient numpy arrays** for large-scale data storage and retrieval
 - **Hardware synchronization** with external photon correlation boards via LVTTL signals
 - **Data fidelity preservation** through intelligent buffering strategies
-
+![the microscope and setup](microscope.MP.jpg)
 ## Project Structure
 
 - **Image Acquisition Module** (`get_image`): Low-level camera interface and image streaming without position analysis
@@ -48,7 +48,7 @@ The workflow is:
 - **Data Management**: Synchronized storage of position and timing metadata in optimized numpy arrays
 - **Sanity Check Tools**:(`pos_read`) Camera frame rate validation and data quality monitoring utilities
 - **Legacy Components**:`old_implementaion` branch Earlier implementation for multi-file correlation board systems with asynchronous position marking
-
+![the image of the 0805 smd LED](image.MP.jpg)
 ## Technical Highlights
 
 ### Performance Optimization
